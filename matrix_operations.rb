@@ -44,6 +44,16 @@ def product(a, b)
   return false
 end
 
+# Prints a matrix
+def print_matrix(m)
+  for i in 0...m.length
+    for j in 0...m[0].length
+      printf("%d ", m[i][j])
+    end
+    puts
+  end
+end
+
 # Main program
 a = [[2, 6], [12, 5], [27, -3]]
 b = [[5, -7, 10], [34, 54, -2]]
