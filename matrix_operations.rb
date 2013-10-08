@@ -57,3 +57,28 @@ end
 # Main program
 a = [[2, 6], [12, 5], [27, -3]]
 b = [[5, -7, 10], [34, 54, -2]]
+
+
+print_matrix(a)
+puts
+
+print_matrix(b)
+puts
+
+r = sum(a, b)
+if r
+  print_matrix(r)
+  puts
+else
+  puts "No se puede realizar la suma"
+  puts
+end
+
+r2 = product(a, b)
+if r2
+  print_matrix(r2)
+  puts
+else
+  puts "No se puede realizar el producto"
+  puts
+end
